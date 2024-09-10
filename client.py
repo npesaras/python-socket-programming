@@ -26,5 +26,9 @@ def send(msg):
 
 send("Hello, server!")
 send("Bye, server!")
-send("DISCONNNECT")
+
+# Close the socket
 client.close()
+
+print("Connection is terminated")
+
